@@ -1,0 +1,26 @@
+Named Export: THey are imported in {} 
+example: export const Title = function(){
+            
+}
+below is the way it will be imported 
+import {Title} from "...."
+
+Default Export:
+const Title = function(){
+
+}
+export default Title;
+
+The way it imports is: import Title "....."
+
+* : The all components will be imported of that particular component.
+
+What is the importance of config file?
+Constant values, and common URL are stored in this file.
+
+What are REact Hooks?
+React Hook are just JS functions and gives use some functionality.
+
+
+Why do we need a useState() Hook?
+It is used to create local state variable and all the state variables we create react keeps track of all of them. 
